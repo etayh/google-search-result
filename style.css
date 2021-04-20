@@ -2,6 +2,7 @@ html, body {
     background-color: #fff;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color:#202214;
 }
 
 #top-nav-container {
@@ -17,6 +18,7 @@ html, body {
     width: 100px;
     justify-content: flex-start;
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 #search-content-container {
@@ -36,7 +38,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 710px;
+    width: 690px;
     height: 45px;
     border-radius: 50px;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
@@ -44,8 +46,15 @@ html, body {
 }
 
 p {
-    font-size: 30px;
-    color: grey;
+    font-size: 14px;
+    color:#4d5156;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
 }
 
 #magnify {
@@ -150,6 +159,11 @@ button {
     font-size: 14px;
 }
 
+#current-link {
+    border-bottom: 3px solid #1a73e8;
+    padding-left:0px;
+}
+
 .options-icons {
     opacity:0.6;
     align-self: center;
@@ -166,16 +180,78 @@ button {
 }
 
 .top-nav-links-two {
-    padding-bottom: 12px;
+    padding-bottom: 14px;
 }
 
 #results {
     display: flex;
     justify-content: flex-start;
+    padding-bottom:5px;
 }
 
 #results p {
     color:#5f6368;
     font-size: 14px;
     margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+.article {
+    margin-left: 170px;
+    font-family:
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom:0px;
+}
+
+.ad {
+    font-weight: bold;
+    color: #202214;
+}
+
+#ad-link {
+    margin-top: 7px;
+}
+
+h1 a, #ad-link a {
+    color:#1a0dab;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+#people-also-ask {
+    margin-left:170px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #202214;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0px;
+    width: 600px;
+    padding-bottom: 8px;
+    border-bottom: 0.5px solid #4d515675;
+}
+
+.people-ask-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    border-bottom: 0.5px solid #4d515675;
+    margin: 0px 0px 16px 0px;
+    width: 600px;
+    padding-bottom: 8px;
+}
+
+.expand-icon{
+    opacity: 0.75;
 }
